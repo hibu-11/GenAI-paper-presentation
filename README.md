@@ -32,9 +32,9 @@ Right: GPT-2 runtime comparison showing FlashAttention speedup.
 FlashAttention re-orders computations to reduce data movement.  
 It computes attention **block-by-block in SRAM**, never materializing the full QKᵀ matrix.
 
-$
+$$
 \text{Attention}(Q,K,V)=\text{softmax}\!\left(\frac{QK^T}{\sqrt{d}}\right)V
-$
+$$
 
 Each tile updates running softmax statistics so the result remains **exact**.
 
