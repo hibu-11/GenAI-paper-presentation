@@ -1,4 +1,4 @@
-# ⚡ FlashAttention: Fast and Memory-Efficient Exact Attention  
+# FlashAttention: Fast and Memory-Efficient Exact Attention  
 
 **Authors:** Tri Dao, Daniel Fu, Stefano Ermon, Atri Rudra, Christopher Ré  
 **Paper:** [https://arxiv.org/abs/2205.14135](https://arxiv.org/abs/2205.14135)  
